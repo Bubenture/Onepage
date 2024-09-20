@@ -120,7 +120,7 @@ document.getElementById('submitButton').addEventListener('click', function(e) {
         });
 
 
-        fetch('https://script.google.com/macros/s/AKfycbwlKU11kwwPK4hAkxojGsvA66Z8M_qWuc10AgMo1OF9eN2jnSGnHdDT2flflo3aHDsSMQ/exec', {  
+        fetch('url', {  
                                 method: 'POST',
                                 contentType: 'application/json',
                                 body: JSON.stringify(data)
